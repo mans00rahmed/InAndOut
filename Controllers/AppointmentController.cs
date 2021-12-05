@@ -12,5 +12,10 @@ namespace iao.Controllers
         {
             return View();
         }
+
+        public IActionResult Details(int id)
+        {
+            return Ok("id :" + id);
+        }
     }
 }
