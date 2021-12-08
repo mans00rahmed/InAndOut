@@ -10,6 +10,6 @@ namespace iao.Models
     {
         [Key]
         public int Id { get; set; }
-        public int Borrower { get; set; }
+        public string Borrower { get; set; }
     }
 }
