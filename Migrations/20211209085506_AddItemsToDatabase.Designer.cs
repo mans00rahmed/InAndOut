@@ -9,7 +9,7 @@ using iao.Data;
 namespace iao.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211206210714_AddItemsToDatabase")]
+    [Migration("20211209085506_AddItemsToDatabase")]
     partial class AddItemsToDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,8 +27,8 @@ namespace iao.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int>("Borrower")
-                        .HasColumnType("int");
+                    b.Property<string>("Borrower")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

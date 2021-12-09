@@ -25,8 +25,8 @@ namespace iao.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
-                    b.Property<int>("Borrower")
-                        .HasColumnType("int");
+                    b.Property<string>("Borrower")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
