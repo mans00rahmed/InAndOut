@@ -434,3 +434,5 @@ C:\Users\Rrs computers\source\repos\iao\iao\obj\Debug\net5.0\Razor\Views\Item\In
 C:\Users\Rrs computers\source\repos\iao\iao\obj\Debug\net5.0\Razor\Views\Item\Create.cshtml.g.cs
 C:\Users\Rrs computers\source\repos\iao\iao\obj\Debug\net5.0\Razor\Views\Expense\Create.cshtml.g.cs
 C:\Users\Rrs computers\source\repos\iao\iao\obj\Debug\net5.0\Razor\Views\Expense\Index.cshtml.g.cs
+C:\Users\Rrs computers\source\repos\iao\iao\obj\Debug\net5.0\Razor\Views\Expense\Delete.cshtml.g.cs
+C:\Users\Rrs computers\source\repos\iao\iao\obj\Debug\net5.0\Razor\Views\Expense\Update.cshtml.g.cs
