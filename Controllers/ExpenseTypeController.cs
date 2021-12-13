@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace iao.Controllers
 {
-    public class ExpenseTypeController : Controller
+    public class ExpenseController : Controller
     {
         private readonly ApplicationDbContext _db;
 
-        public ExpenseTypeController(ApplicationDbContext db)
+        public ExpenseController(ApplicationDbContext db)
         {
             _db = db;
         }
@@ -20,7 +20,7 @@ namespace iao.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<ExpenseType> objList = _db.ExpenseType;
+            IEnumerable<Expense> objList = _db.Expenses;
             return View(objList);
 
         }
