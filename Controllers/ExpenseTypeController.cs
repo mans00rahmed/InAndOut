@@ -91,13 +91,14 @@ namespace iao.Controllers
         }
 
         // POST-Update
+        // POST-Update
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Update(Expense obj)
+        public IActionResult Update(ExpenseType obj)
         {
             if (ModelState.IsValid)
             {
-                _db.Expenses.Update(obj);
+                _db.ExpenseType.Update(obj);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
